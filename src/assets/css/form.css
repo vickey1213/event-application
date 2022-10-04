@@ -1,0 +1,205 @@
+/* styles for form container */
+.formContainer {
+    border-top: 1rem solid rgb(247, 187, 51);
+    width: 40rem;
+    margin: auto;
+    margin-top: 5rem;
+    background-color: #ffffff;
+    font-family: 'Montserrat';
+}
+
+.formHeader {
+    text-align: center;
+    margin: 2rem;
+}
+
+/* styles for user name divs */
+.name_div {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 2.6rem;
+}
+
+.lName {
+    margin-left: 1.6rem;
+}
+
+.icons_div {
+    display: flex;
+}
+
+.icons {
+    border: 0.1rem solid black;
+    padding: 0.3rem;
+}
+
+.inputs {
+    outline: none;
+    padding: 0.3rem;
+    font-size: 1rem;
+    border: 0.1rem solid black;
+    border-left: none;
+    font-family: 'Montserrat';
+}
+
+.longInputs {
+    width: 34rem;
+}
+
+.email_div {
+    display: flex;
+    margin: 1.5rem 2.6rem;
+}
+
+.dobPhone_div {
+    display: flex;
+    align-items: center;
+}
+
+.dob_div {
+    padding: 0rem 2.6rem;
+}
+
+.dob_div>label {
+    border: 0.1rem solid black;
+    padding: 0.36rem;
+}
+
+.dob_div>input {
+    width: 12rem;
+}
+
+.phone_input>input {
+    padding: 0.4rem;
+    width: 12.3rem;
+    font-size: 1rem;
+    outline: none;
+    border: 0.1rem solid black;
+    font-family: 'Montserrat';
+}
+
+.textarea {
+    border: 0.1rem solid black;
+}
+
+.terms {
+    display: flex;
+    align-items: center;
+}
+
+.terms>input {
+    width: 1rem;
+    height: 1rem;
+}
+
+.terms>label {
+    margin-left: 0.2rem;
+}
+
+.submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit>input {
+    width: 40rem;
+    border: none;
+    background-color: rgb(247, 187, 51);
+    padding: 0.6rem;
+    margin-bottom: 4rem;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+.eventMain{
+    position: relative;
+}
+.birthday {
+    position: absolute;
+    width: 333px;
+    height: 37px;
+    left: 240px;
+    top: 194px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+
+    color: #240D57;
+
+
+}
+
+.bname {
+    position: absolute;
+    width: 155px;
+    height: 15px;
+    left: 240px;
+    top: 248px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #828282;
+
+}
+
+.calender {
+   /* Icon */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding: 12px;
+gap: 1px;
+
+width: 56px;
+height: 56px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.date {
+    width: 253px;
+    height: 21px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #4F4F4F;
+
+}
+
+.eventImage {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    left: calc(50% - 500px/2 + 266px);
+    top: 184px;
+    border-radius: 0px;
+}
